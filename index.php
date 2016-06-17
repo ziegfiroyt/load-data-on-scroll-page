@@ -9,6 +9,10 @@
 
     <script type="text/javascript">
       $(function(){
+        
+        // Including li elements
+        $("ul").load("ajax.php");
+        
         $("#container").scroll(function(){
           if($(this).scrollTop() === $(".list").height() - $(this).height()) {
             var id = $(".list ul li:last").attr("id"); // Get last li's id
@@ -33,10 +37,7 @@
 
       <div class="list">
         <ul>
-          <?php
-            // Including li elements
-            include 'ajax.php';
-          ?>
+          // Li elements will have been added here.
         </ul>
       </div>
 
