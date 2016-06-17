@@ -37,7 +37,7 @@
 
       <div class="list">
         <ul>
-          // Li elements will have been added here.
+          <!-- Li elements will have been added here. -->
         </ul>
       </div>
 
