@@ -1,12 +1,11 @@
 <?php
 
 $id = $_GET['id'];
-$cid = $id+1;
+$cid = $id + 1;
 
-for($i=$cid;$i<$cid+10;$i++) {
-  echo '<li id="'.$i.'">Text '.$i.'</li>';
+for ($i = $cid; $i < $cid + 10; $i++) {
+    echo '<li id="'.$i.'">Text '.$i.'</li>';
 }
-
 
 // OUTPUT is
 
@@ -23,6 +22,4 @@ for($i=$cid;$i<$cid+10;$i++) {
 <li id="9">Text 9</li>
 <li id="10">Text 10</li>
 
-*/
-
-?>
+*/;
